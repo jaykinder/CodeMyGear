@@ -5,7 +5,7 @@ body {
 body {
     background-color: lightgray;
 }
-h1 {color: green
+h1 {color: black
   }
 h2, h3, h4, h5, h6
   {color: #4CAF50
@@ -85,6 +85,12 @@ p {
 .gallery .active {
   opacity: 0.5;
 }
+.wrapper {
+  width: 725px;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
 #input {
   display: flex;
 }
